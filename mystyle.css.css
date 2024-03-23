@@ -1,0 +1,118 @@
+.full {
+    display: flex;
+    background-color: white;
+    margin: 50px;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+    margin: 40px;
+    height: 3000px;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 30vw;
+    height: 6vh;
+    left: 35vw;
+    top: 0;
+    justify-content: center;
+    z-index: 1;
+    align-items: center;
+}
+
+.navbutton:hover {
+    border-radius: 20px;
+    background-color: rgb(54, 52, 52);
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+
+a:hover {
+    color: aqua;
+    cursor: pointer;
+    transition: all 1s ease-in-out 1ms;
+}
+
+.card {
+    right: 50px;
+    height: 500px;
+    width: 150px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+}
+
+.card:hover {
+    border-radius: 5px;
+    border: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+    transition: all 0.5s ease-in-out 1ms;
+}
+
+.action button {
+    width: 150px;
+    height: 70px;
+    display: block;
+    border: 2px solid rgb(151, 210, 255);
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: rgb(0, 0, 0);
+}
+
+.action button:hover {
+    background-color: aqua;
+    text-transform: capitalize;
+    transition: all 1s ease-in-out 50ms;
+}
+
+.action {
+    margin-top: 70px;
+}
+
+.side {
+    text-align: center;
+    height: 0;
+    width: 190px;
+    position: absolute;
+    transform: rotate(-26.6deg);
+    left: 52px;
+    top: 62px;
+    border-bottom: 80px solid gray;
+    border-left: 40px solid transparent;
+    border-right: 162px solid transparent;
+
+}
+
+.side p {
+    font-family: Verdana;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.ribon {
+    text-align: center;
+    left: 600px;
+    height: 0;
+    width: 110px;
+    color: white;
+    position: absolute;
+    top: 110px;
+    transform: rotate(-35deg);
+    border-bottom: 40px solid gray;
+    border-left: 28px solid transparent;
+    border-right: 58px solid transparent;
+}
